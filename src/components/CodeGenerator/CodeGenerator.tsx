@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useDragDrop } from '../context/DragDropProvider';
+import { useDragDrop } from '../../context/DragDropProvider';
 import yaml from 'js-yaml';
 import { renderCode } from './renderCode';
 

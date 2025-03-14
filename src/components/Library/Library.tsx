@@ -1,9 +1,9 @@
 import React from 'react';
 import RenderComponent from './RenderComponent';
-import SidePanel from './SidePanel';
+import SidePanel from '../SidePanel';
 import { Stack } from '@mui/material';
-import { uiElements } from './uiElements';
-import { useDragDrop } from '../context/DragDropProvider';
+import { uiElements } from '../uiElements';
+import { useDragDrop } from '../../context/DragDropProvider';
 
 const Library: React.FC = () => {
     const { setDraggedItem, setIsDragging } = useDragDrop();

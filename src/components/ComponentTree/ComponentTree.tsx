@@ -1,4 +1,4 @@
-import SidePanel from "./SidePanel"
+import SidePanel from "../SidePanel"
 
 const ComponentTree = ()=>{
     return <SidePanel>

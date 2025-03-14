@@ -1,11 +1,11 @@
 import { Container, Stack } from "@mui/material";
 import Header from "../components/Header";
 import Box from "@mui/material/Box";
-import Canvas from "../components/Canvas";
-import Library from "../components/Library";
-import ComponentTree from "../components/ComponentTree";
+import Canvas from "../components/Canvas/Canvas";
+import Library from "../components/Library/Library";
+import ComponentTree from "../components/ComponentTree/ComponentTree";
 import { DragDropProvider } from "../context/DragDropProvider";
-import CodeGenerator from "../components/CodeGenerator";
+import CodeGenerator from "../components/CodeGenerator/CodeGenerator";
 
 const Layout = () => {
 
